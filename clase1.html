@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header></header>
+
+    <section>
+        <h1>Anatomia de una declaracion</h1>
+        <p>Es un declaracion</p>
+        <code>
+            p { <br>
+                color:red <br>
+            } <br>
+        </code>
+        <p>p: selector</p>
+        <p>color: propiedad</p>
+        <p>red: propiedad</p>
+    </section>
+
+    <section>
+        <h1>Tipos de selectores</h1>
+        <p>Univelsal:</p>
+        <code>
+        * {<br>
+            margin 0;<br>
+        }<br>
+    </code>
+        <p>Tipo:</p>
+        <code>
+        h1 {<br>
+            color:red;<br>
+        }<br>
+    </code>
+        <p>Clase:</p>
+        <code>
+        .saludo {<br>
+            font-size:2em;<br>
+        } <br>
+    </code>
+        <p>Id:</p>
+        <code>
+        #id { <br>
+            borde-radio: 20px; <br>
+        } <br>
+    </code>
+    </section>
+
+    <section>
+        <h1>Pseudo-clases</h1>
+        <code>
+        <p>Primer hijo</p>
+        p:first-child {<br>
+            color:white; <br>
+        } <br>
+        <p>Ultimo hijo</p>
+        p:last-child{ <br>
+            color: purple; <br>
+        } <br>
+        <p>hijos pares</p>
+        p:ntn-child(2n){ <br>
+            color_red; <br>
+        } <br>
+        <p>hijos inpares</p>
+        p:ntn-child(2n+1){ <br>
+            color_blue; <br>
+        } <br>
+    </code>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Documentacion</a></p>
+    </section>
+
+    <section>
+        <h1>Pseudo-elementos</h1>
+        <p>Primera letra</p>
+        <code>
+        p::first-letter { <br>
+            color:red; <br>
+            font-size: 20px; <br>
+        } <br>
+    </code>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">Documentacion</a></p>
+    </section>
+
+    <footer></footer>
+
+</body>
+
+</html>
