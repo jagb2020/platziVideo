@@ -1,0 +1,13 @@
+SMACSS
+
+Scalable and Modular Arquitecture for CSS. Arquitectura de css escalable y modular. PAra eso se realizan cinco pasos
+
+    * Dividir nuestro css en componentes base
+
+    * Definir Layout. Elementos que se utilizan solo una vez. ej. Footer, Header
+
+    * Definir Modulos. Componentes que se usan mas de una vez
+
+    *Definir Estados. Estos estados definen los cambios que existen en nuestros elementos/componentes. ej. Cambio de color cuando hacen hover
+
+    * Definir Temas. Separar los temas y sus cambios. Si tuvieras temas

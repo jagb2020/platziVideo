@@ -1,0 +1,16 @@
+ITCSS
+
+Inverted Triangle CSS. Triangulo Invertido de CSS. Lo que nos indica esta metodologia es poder dividir todos nuestros archivos de css en ciertas partes para que no se mezclen.
+Triangulo invertido, desde arriba hacia abajo:
+    * Ajustes
+    * Herramientas
+    * Generico
+    * Elementos
+    * Objetos
+    * Componentes
+    * Utilidades
+
+Especificidad: elementos o clases con mayor peso que otros.
+    * Especificidad
+    * Magnitud
+    * Claridad
